@@ -1,5 +1,7 @@
 # Update this file!
 
+# Note: You do not need to install yarn/node-js as the base image should already come with them
+
 # Use the node:16-alpine image from DockerHub: https://hub.docker.com/_/node
 # If you are curious to see how this looks like:
 # Link: https://github.com/nodejs/docker-node/blob/5647d2766ea650f10fb5741e7f6e101b5e5ba0b6/17/alpine3.14/Dockerfile
