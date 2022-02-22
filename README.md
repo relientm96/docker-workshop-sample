@@ -89,8 +89,8 @@ Take note of the following Dockerfile commands from the [documentation](https://
 
     ```Dockerfile
     # Usage: COPY <SOURCE_PATH_ON_HOST> <DESTINATION_PATH_ON_CONTAINER>
-    # eg: Copying a package.json file to root level of container
-    COPY package.json package.json
+    # eg: Copying an existing README file from the host to the container
+    COPY README.md README.md
     ```
 
 - `CMD`: Command to execute when **running** the image.
