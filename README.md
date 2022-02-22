@@ -30,7 +30,7 @@ When running step 6, the output should look soemthing like this:
 
 4. Edit and add instructions to `Dockerfile`.
    
-   (Take a look at [Some helpful commands](#Some helpful commands) for a list of commands you should use to achieve this task.
+   (Take a look at [Commands](#Commands) for a list of commands you should use to achieve this task.
 
 5. Build an image with your `Dockerfile`:
   
@@ -66,7 +66,7 @@ When running step 6, the output should look soemthing like this:
     - `sh` tells docker to run the container with the [Bourne Shell](https://en.wikipedia.org/wiki/Bourne_shell).
 
 
-## Some helpful commands
+## Commands
 
 Take note of the following Dockerfile commands from the [documentation](https://docs.docker.com/engine/reference/builder/).
 
