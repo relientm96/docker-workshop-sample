@@ -4,5 +4,9 @@
   "main": "src/index.js",
   "repository": "git@github.com:relientm96/docker-workshop-sample.git",
   "author": "Matthew Yong",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "pino": "^7.8.0",
+    "pino-pretty": "^7.5.1"
+  }
 }
