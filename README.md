@@ -55,5 +55,5 @@ When running step 6, the output should look soemthing like this:
 6. Run a container from your build image:
 
     ```bash
-    docker run -it --init <your_custom_image_name>
+    docker run -it <your_custom_image_name>
     ```
