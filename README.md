@@ -17,7 +17,6 @@ When running step 6, the output should look soemthing like this:
    Run the following check if it is running successfully.
    
    ```bash
-   # List all running containers
    docker ps
    ```
 
