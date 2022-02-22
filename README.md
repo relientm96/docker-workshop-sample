@@ -29,8 +29,7 @@ When running step 6, the output should look soemthing like this:
 3. Update `src/index.js` to log your name.
 
 4. Edit and add instructions to `Dockerfile`.
-   
-   (Take a look at [Commands](#Commands) for a list of commands you should use to achieve this task.
+   (Take a look at [Commands](#Commands) for a list of commands you should use to achieve this task.)
 
 5. Build an image with your `Dockerfile`:
   
