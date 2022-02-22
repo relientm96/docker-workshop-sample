@@ -12,7 +12,14 @@ When running step 6, the output should look soemthing like this:
 
 ## Setup
 
-1. Have Docker Desktop running locally. Use `docker ps` to check.
+1. Have Docker Desktop running locally. 
+  
+   Run the following check if it is running successfully.
+   
+   ```bash
+   # List all running containers
+   docker ps
+   ```
 
 2. Clone this repository.
 
