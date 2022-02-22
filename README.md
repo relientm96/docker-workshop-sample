@@ -43,9 +43,13 @@ When running step 6, the output should look soemthing like this:
 
     ```bash
     docker run -it <your_custom_image_name> sh
+    
+    # You should be inside your container from here.
+    # Use ls to see how it looks like internally and explore!
+    ls 
     ```
     
-    - `sh` tells docker to run the container with the [Bourne Shell](https://en.wikipedia.org/wiki/Bourne_shell)
+    - `sh` tells docker to run the container with the [Bourne Shell](https://en.wikipedia.org/wiki/Bourne_shell).
 
 
 ## Some helpful commands
