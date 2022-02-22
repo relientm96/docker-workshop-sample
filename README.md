@@ -51,9 +51,18 @@ When running step 6, the output should look soemthing like this:
     ```bash
     docker build . -t <your_custom_image_name>
     ```
+    
+    - `build` tells docker to build an image from a given Dockerfile.
+    - `.` tells docker to use the Dockerfile in the same working directory as where you called the docker command.
+    - `-t` applies a tag to your image.
+    - `<your_custom_image_name>` is name of an image that you can choose.
 
 6. Run a container from your build image:
 
     ```bash
     docker run -it <your_custom_image_name>
     ```
+    
+    - `run` tells docker to execute what is defined in `CMD` in your Dockerfile.
+    - `-it` runs the container in interactive mode.
+    - `<your_custom_image_name>` tells docker which image to run.
