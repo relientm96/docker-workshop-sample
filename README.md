@@ -16,6 +16,10 @@ When running step 6, the output should look soemthing like this:
 
 2. Clone this repository.
 
+    ```bash
+    git clone git@github.com:relientm96/docker-workshop-sample.git
+    ```
+
 3. Update `src/index.js` to log your name.
 
 4. Edit and add instructions to `Dockerfile`.
