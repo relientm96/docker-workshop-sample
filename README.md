@@ -39,9 +39,9 @@ When running step 6, the output should look soemthing like this:
     - `-it` runs the container in interactive mode.
     - `<your_custom_image_name>` tells docker which image to run.
 
-## Notes
+## Some helpful commands
 
-Take note of the following keywords from the [documentation](https://docs.docker.com/engine/reference/builder/).
+Take note of the following Dockerfile commands from the [documentation](https://docs.docker.com/engine/reference/builder/).
 
 - `FROM`: Telling Docker which base image to use.
 
@@ -50,6 +50,7 @@ Take note of the following keywords from the [documentation](https://docs.docker
     # Eg: Using node:16-alpine image from Dockerhub
     FROM node:16-alpine
     ```
+
 - `RUN`: Telling Docker command to run when **building** the image.
 
     ```Dockerfile
@@ -57,6 +58,7 @@ Take note of the following keywords from the [documentation](https://docs.docker
     # eg: Installing dependencies with yarn
     RUN yarn install
     ```
+
 - `COPY`: Copy a file from host (i.e your laptop) to container.
 
     ```Dockerfile
@@ -64,6 +66,7 @@ Take note of the following keywords from the [documentation](https://docs.docker
     # eg: Copying a package.json file to root level of container
     COPY package.json package.json
     ```
+
 - `CMD`: Command to execute when **running** the image.
 
     ```Dockerfile
