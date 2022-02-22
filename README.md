@@ -54,8 +54,8 @@ When running step 6, the output should look soemthing like this:
     
     - `build` tells docker to build an image from a given Dockerfile.
     - `.` tells docker to use the Dockerfile in the same working directory as where you called the docker command.
-    - `-t` applies a tag to your image.
-    - `<your_custom_image_name>` is name of an image that you can choose.
+    - `-t` applies a tag to your image, which labels your image.
+    - `<your_custom_image_name>` is a name that you can choose to label this image.
 
 6. Run a container from your build image:
 
