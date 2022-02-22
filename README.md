@@ -39,6 +39,15 @@ When running step 6, the output should look soemthing like this:
     - `-it` runs the container in interactive mode.
     - `<your_custom_image_name>` tells docker which image to run.
 
+7. (Optional) - If you would like to see how your container looks like:
+
+    ```bash
+    docker run -it <your_custom_image_name> sh
+    ```
+    
+    - `sh` tells docker to run the container with the [Bourne Shell](https://en.wikipedia.org/wiki/Bourne_shell)
+
+
 ## Some helpful commands
 
 Take note of the following Dockerfile commands from the [documentation](https://docs.docker.com/engine/reference/builder/).
