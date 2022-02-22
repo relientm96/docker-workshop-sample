@@ -97,6 +97,6 @@ Take note of the following Dockerfile commands from the [documentation](https://
 
     ```Dockerfile
     # Usage: CMD ["<COMMAND>", "<ARG_1>"...]
-    # Eg: Running a node js script
+    # Eg: Running a node js script in the container
     CMD ["node", "my-node-js-script.js"]
     ```
