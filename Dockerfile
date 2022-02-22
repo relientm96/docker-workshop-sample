@@ -1,6 +1,6 @@
-FROM node:16-alpine
-
 # Update this file!
+
+FROM node:16-alpine
 
 # COPY dependencies into container
 COPY ...
@@ -11,5 +11,5 @@ RUN ...
 # COPY source file
 COPY ...
 
-# Run actual command
+# Run actual command from copied source file
 CMD ...
