@@ -4,6 +4,10 @@
 
 Create an image that runs `src/index.js` that logs out your name with the [pino-pretty](https://github.com/pinojs/pino-pretty) Javascript library.
 
+When running step 6, the output should look soemthing like this:
+
+![image](https://user-images.githubusercontent.com/37989130/155078710-56006534-92ce-4d5e-b144-6f41a6b7fdde.png)
+
 ## Setup
 
 1. Have Docker Desktop running locally. Use `docker ps` to check.
