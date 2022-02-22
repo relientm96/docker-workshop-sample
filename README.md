@@ -1,5 +1,7 @@
 # Docker Workshop Sample
 
+Sample workshop to build a simple image.
+
 ## Task
 
 Create an image that runs `src/index.js` that logs out your name with the [pino-pretty](https://github.com/pinojs/pino-pretty) Javascript library.
