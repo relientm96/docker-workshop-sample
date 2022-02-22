@@ -17,6 +17,7 @@ Create an image that runs `src/index.js` that logs out your name with the [pino-
     - `RUN`
     - `COPY`
     - `CMD`
+    - `WORKDIR`
 
 5. Build an image with your `Dockerfile`:
   

@@ -4,6 +4,6 @@ FROM node:16-alpine
 
 # Update this file!
 
-# NOTE: It should only need the following commands
-# FROM, RUN, ,COPY CMD
+# NOTE: It should only need the following commands from the DockerFile reference:
+# FROM, WORKDIR, RUN, COPY, CMD
 
